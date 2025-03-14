@@ -38,7 +38,7 @@ const DashboardSection = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="flex flex-col gap-5 text-center lg:text-left">
         <motion.h2 variants={FadeIn} className="font-medium text-lg text-light-blue">
-          Web3 Grants Dashboard
+          CL Web3 Grants Dashboard
         </motion.h2>
         <motion.h3 variants={FadeIn} className="text-white font-bold text-3xl">
           Web3Grants.co – Find the
