@@ -36,8 +36,8 @@ const Footer = () => {
               info@cornarolabs.xyz
             </a>
           </p>
-          <p>M.I. Cornaro Labs Ltd is registered in the Republic of Cyprus with company number HE466589.</p>
           <p>© Cornaro Labs 2025. All rights reserved.</p>
+          <p>M.I. Cornaro Labs Ltd is registered in the Republic of Cyprus with company number HE466589.</p>
         </div>
       </div>
     </footer>
