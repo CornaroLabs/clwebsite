@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const links = [
   {
     id: 1,
-    title: "Grants Dashboard",
+    title: "Grants Hub",
     url: "#dashboard",
   },
   {
