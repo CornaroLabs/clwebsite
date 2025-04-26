@@ -69,7 +69,7 @@ const Hero = () => {
             className="my-1.5 max-w-[45rem] mx-auto">
             Cornaro Labs helps Web3 projects secure funding with expert grant writing, strategic
             consultancy, and project management services. In addition to our hands-on support, we're
-            building the CL Web3 Grants Dashboard—an AI-powered platform designed for seamless grant
+            building the CL Web3 Grants Hub—an AI-powered platform designed for seamless grant
             discovery and funding analytics.
           </motion.p>
         </div>
@@ -83,7 +83,7 @@ const Hero = () => {
             href="https://www.web3grants.co/"
             target="_blank"
             rel="noreferrer">
-            <span>Web3 Grants DashBoard</span>
+            <span>CL Web3 Grants Hub</span>
           </a>
           <a
             className="custom-btn"
