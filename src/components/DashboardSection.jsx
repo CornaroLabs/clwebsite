@@ -38,14 +38,14 @@ const DashboardSection = () => {
         viewport={{ once: true, amount: 0.5 }}
         className="flex flex-col gap-5 text-center lg:text-left">
         <motion.h2 variants={FadeIn} className="font-medium text-lg text-light-blue">
-          CL Web3 Grants Dashboard
+          CL Web3 Grants Hub
         </motion.h2>
         <motion.h3 variants={FadeIn} className="text-white font-bold text-3xl">
           Web3Grants.co – Find the
           <span className="gradient-text"> Perfect Grant for Your Project</span>
         </motion.h3>
         <motion.p variants={FadeIn}>
-          The CL Web3 Grants Platform enhances how Web3 grant programs are accessed, analysed, and
+          The CL Web3 Grants Hub enhances how Web3 grant programs are accessed, analysed, and
           managed.
         </motion.p>
         <motion.ul variants={FadeIn} className="text-white text-sm space-y-6 font-medium">
@@ -73,7 +73,7 @@ const DashboardSection = () => {
             target="_blank"
             rel="noreferrer">
             {" "}
-            <span className="grid place-items-center">Visit the Dashboard</span>
+            <span className="grid place-items-center">Visit the Grants Hub</span>
           </motion.a>
           <a
             className="custom-btn"
