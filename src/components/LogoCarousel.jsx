@@ -6,7 +6,7 @@ import celo from "../assets/celo.svg";
 import ethereum from "../assets/ethereum.svg";
 import europeanCommission from "../assets/european-commission.svg";
 import filecoin from "../assets/filecoin.svg";
-import hedera from "../assets/1751464290234.jpeg";
+import hedera from "../assets/Hedera-Foundation-Logo-Stacked-Lockup.svg";
 import ripple from "../assets/ripple.svg";
 import stellar from "../assets/stellar.svg";
 import story from "../assets/Story_white.svg";
