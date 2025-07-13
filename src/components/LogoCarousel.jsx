@@ -8,7 +8,7 @@ import europeanCommission from "../assets/european-commission.svg";
 import filecoin from "../assets/filecoin.svg";
 import ripple from "../assets/ripple.svg";
 import stellar from "../assets/stellar.svg";
-import story from "../assets/Storyblack.svg";
+import story from "../assets/Story_white.svg";
 
 // Array of logos with corresponding company links
 const logos = [
