@@ -8,6 +8,7 @@ import europeanCommission from "../assets/european-commission.svg";
 import filecoin from "../assets/filecoin.svg";
 import ripple from "../assets/ripple.svg";
 import stellar from "../assets/stellar.svg";
+import story from "../assets/Storyblack.svg";
 
 // Array of logos with corresponding company links
 const logos = [
@@ -18,6 +19,7 @@ const logos = [
   { src: filecoin, url: "https://filecoin.io/" },
   { src: ripple, url: "https://ripple.com/" },
   { src: stellar, url: "https://www.stellar.org/" },
+    { src: story, url: "https://www.story.foundation/" },
   { src: europeanCommission, url: "https://ec.europa.eu/" },
 ];
 
