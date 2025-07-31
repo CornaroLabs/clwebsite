@@ -90,7 +90,7 @@ const Hero = () => {
             href="https://tally.so/r/3ydLEW"
             target="_blank"
             rel="noreferrer">
-            <span>Get Started!</span>
+            <span>Get in Touch & Get Started</span>
           </a>
         </motion.div>
       </div>
