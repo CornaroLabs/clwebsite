@@ -87,10 +87,10 @@ const Hero = () => {
           </a>
           <a
             className="custom-btn"
-            href="https://calendly.com/cornarolabs"
+            href="https://tally.so/r/3ydLEW"
             target="_blank"
             rel="noreferrer">
-            <span>Book a free Consultation</span>
+            <span>Get Started!</span>
           </a>
         </motion.div>
       </div>
