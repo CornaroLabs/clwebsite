@@ -2,13 +2,13 @@ import { motion } from "motion/react";
 
 const records = [
   {
-    amount: "$3M+",
+    amount: "$5M+",
     title: "Raised in Grant Fundraising",
     description:
       "Securing funding to drive innovation and support startups and projects from various ecosystems.",
   },
   {
-    amount: "20+",
+    amount: "25+",
     title: "Projects Managed & Executed",
     description: "Leading end-to-end project execution, from strategy to successful deployment.",
   },
@@ -19,7 +19,7 @@ const records = [
       "Directly managed and distributed grants to Web3 and other tech startups/projects.",
   },
   {
-    amount: "7+",
+    amount: "8+",
     title: "Years of Web3 Experience",
     description:
       "Expertise in blockchain, funding, project management, research and scaling Web3 projects.",
