@@ -20,7 +20,7 @@ const Footer = () => {
         </ul>
         <ul className="text-primary-gray text-sm flex flex-col gap-3 text-center lg:text-left">
           <li>
-            <a href="https://calendly.com/cornarolabs">Let's talk!</a>
+            <a href="https://tidycal.com/cornarolabs">Let's talk!</a>
           </li>
           <li>
             <a href="https://tally.so/r/3ydLEW">Add your Grant Program</a>
