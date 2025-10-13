@@ -164,7 +164,7 @@ const Services = () => {
               initial="initial"
               whileHover="hover"
               className="custom-btn-2 group"
-              href="https://calendly.com/cornarolabs"
+              href="https://tidycal.com/cornarolabs"
               target="_blank"
               rel="noreferrer">
               <span className="flex items-center gap-2">
