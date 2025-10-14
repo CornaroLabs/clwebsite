@@ -56,8 +56,8 @@ const AboutUs = () => {
 
         <motion.p variants={FadeIn}>
           With over seven years of Web3 experience and a decentralized network of consultants and
-          advisors across the EU, UK, and USA, we have successfully raised over €3M+ through
-          industry and institutional sources. Our team has successfully implemented more than 20
+          advisors across the EU, UK, and USA, we have successfully raised over €5M+ through
+          industry and institutional sources. Our team has successfully implemented more than 25
           projects and two grant programs, demonstrating our expertise in blockchain technology.
         </motion.p>
         <motion.p variants={FadeIn}>
