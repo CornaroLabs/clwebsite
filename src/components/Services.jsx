@@ -15,7 +15,7 @@ const services = [
         We assist you in identifying funding opportunities, crafting compelling applications and
         finding strategic partners when necessary. Our seasoned expertise in the blockchain sector
         and European research & innovation projects, combined with a proven track record of raising
-        over €3M+ in recent years only, enables us to offer high-quality, customized services. Our
+        over €5M+ in recent years only, enables us to offer high-quality, customized services. Our
         goal is to empower our clients to seize new funding opportunities and transform innovative
         ideas into successfully funded ventures.
       </p>
