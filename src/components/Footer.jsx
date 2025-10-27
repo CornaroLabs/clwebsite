@@ -30,7 +30,9 @@ const Footer = () => {
           </li>
         </ul>
         <div className="text-sm text-center space-y-3">
+          <p></p>Address: M.I. CORNARO LABS LTD, 4th Floor, Silverstream House/, 45 Fitzroy Street, Fitzrovia, London, W1T 6EB GB </p>
           <p>
+      
             For inquiries, please reach out to us at{" "}
             <a href="mailto:info@cornarolabs.xyz" className="text-[#00b9fa] ">
               info@cornarolabs.xyz
