@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="https://tally.so/r/3ydLEW">Intake Form</a>
           </li>
           <li>
-            <a href="https://x.com/CornaroLabs">Twitter</a>
+            <a href="https://x.com/CornaroLabs">X</a>
           </li>
           <li>
             <a href="https://www.linkedin.com/company/cornaro-labs/">Linkedin</a>
