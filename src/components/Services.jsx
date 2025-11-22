@@ -54,24 +54,23 @@ const services = [
     ),
   },
   {
-    title: "MVP Development – Need a Web3 Developer?",
+    title: "Artifial Intelligence Consulting & Training",
     summary:
-      "Looking to build your Web3 idea but don’t have a developer? We connect you with skilled Web3 builders to help you.",
+      "Looking to integrate AI into your product or upskill your team? Our in-house AI specialist brings deep experience in data science, analytics, and AI product development.",
     icon: <Rocket className="size-14" />,
     description: (
       <div className="text-white flex flex-col gap-3 text-left">
         <span>We offer:</span>
         <ul className="text-white space-y-2">
           <li className="flex gap-3 items-center">
-            <Diamond className="size-3 shrink-0" /> Develop your MVP (Minimum Viable Product).
+            <Diamond className="size-3 shrink-0" /> AI & Data Strategy to shape your product roadmap and unlock real value..
           </li>
           <li className="flex gap-3 items-center">
-            <Diamond className="size-3 shrink-0" /> Optimize smart contracts & blockchain
-            infrastructure.
+            <Diamond className="size-3 shrink-0" /> Hands-on ML & Analytics Consulting for modelling, experimentation, and optimisation
           </li>
           <li className="flex gap-3 items-center">
             <Diamond className="size-3 shrink-0" />
-            Bring your Web3 vision to life with expert dev support.
+            Team Training Sessions on AI and data science tailored to your needs.
           </li>
         </ul>
       </div>
