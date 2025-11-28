@@ -1,4 +1,4 @@
-onst Footer = () => {
+const Footer = () => {
   return (
     <footer className="flex flex-col lg:flex-row gap-10 p-10 bg-[#080f1e] items-center lg:items-start">
       <div className="w-72 lg:w-60">
