@@ -8,7 +8,7 @@ import LogoCarousel from "./components/LogoCarousel";
 import Services from "./components/Services";
 import TrackRecord from "./components/TrackRecord";
 import ScrollToTop from "./components/ScrollToTopButton";
-
+import TeamSection from './components/team-section';
 const fadeInVariant = {
   hidden: { opacity: 0, y: -20 },
   visible: {
@@ -41,6 +41,7 @@ function App() {
         <DashboardSection />
         <Services />
         <AboutUs />
+        <TeamSection/>
         <TrackRecord />
       </main>
       <Footer />
