@@ -65,9 +65,10 @@ export default function TeamSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white font-heading">
-            Our Team
-          </h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white font-heading">
+  Our Team
+</h2>
+
         </div>
 
         {/* GRID */}
