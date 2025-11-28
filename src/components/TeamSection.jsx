@@ -9,7 +9,7 @@ const teamMembers = [
     description:
       "10+ years across Web3, research, and tech—securing €4M+ in grants and managing large-scale projects. Experience from EU-funded projects to Web3 grant programs, with work involving the European Commission, the ECB, and multiple blockchain startups. Project management, grant strategy, and policy & regulation.",
     image:
-      "https://media.licdn.com/dms/image/v2/D4E03AQFR3dSfwZcAXg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718775887249?e=1766016000&v=beta&t=ATN1SNznN0-ghD4ays_DN4BwHlOWRTeQYYJ16STzLi8",
+      "https://eigenjobs.s3.us-east-1.amazonaws.com/marianna.jpeg",
     linkedin: "https://www.linkedin.com/in/mariannacharalambous/",
     twitter: "https://x.com/Mariannach",
     email: "#",
@@ -21,7 +21,7 @@ const teamMembers = [
     description:
       "From building models to leading teams to executive strategy—10+ years turning AI/Data into revenue. Track record across academia, corporate, and startups: data products from zero to Tier-1 pilots, 3x growth through ML, 60%+ of revenue attributed to AI/Data. Oxford DPhil in Statistics.",
     image:
-      "https://media.licdn.com/dms/image/v2/C5103AQFmS21Q9G8tKQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517551527327?e=1766016000&v=beta&t=8FPGirohAuiykZkAjnKJ9SReSZZIrwc70blfLU9d4k4",
+      "https://eigenjobs.s3.us-east-1.amazonaws.com/androniki.jpeg",
     linkedin:
       "https://www.linkedin.com/in/dr-androniki-menelaou-7994aa60/?originalSubdomain=cy",
     twitter: "#",
@@ -33,7 +33,7 @@ const teamMembers = [
     role: "TBA",
     description: "TBA",
     image:
-      "https://media.licdn.com/dms/image/v2/D4D03AQHt7ppqrlAxeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696584501942?e=1766016000&v=beta&t=kPqBBkirvOgViUyjPK5722eT2YiA4N6AYOB3cN6INa4",
+      "https://eigenjobs.s3.us-east-1.amazonaws.com/manos.jpeg",
     linkedin: "https://www.linkedin.com/in/stamatis-papangelou/",
     twitter: "#",
     email: "#",
