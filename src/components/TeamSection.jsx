@@ -1,16 +1,15 @@
-"use client";
-
 import { useState } from "react";
 import { Linkedin, Mail } from "lucide-react";
-import Image from "next/image";
 
 const teamMembers = [
   {
     id: 1,
     name: "Marianna Charalambous",
     role: "Director, Web3 Consultant",
-    description: "10+ years across Web3, research, and tech—securing €4M+ in grants and managing large-scale projects. Experience from EU-funded projects to Web3 grant programs, with work involving the European Commission, the ECB, and multiple blockchain startups. Project management, grant strategy, and policy & regulation.",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFR3dSfwZcAXg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718775887249?e=1766016000&v=beta&t=ATN1SNznN0-ghD4ays_DN4BwHlOWRTeQYYJ16STzLi8",
+    description:
+      "10+ years across Web3, research, and tech—securing €4M+ in grants and managing large-scale projects. Experience from EU-funded projects to Web3 grant programs, with work involving the European Commission, the ECB, and multiple blockchain startups. Project management, grant strategy, and policy & regulation.",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQFR3dSfwZcAXg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718775887249?e=1766016000&v=beta&t=ATN1SNznN0-ghD4ays_DN4BwHlOWRTeQYYJ16STzLi8",
     linkedin: "https://www.linkedin.com/in/mariannacharalambous/",
     twitter: "https://x.com/Mariannach",
     email: "#",
@@ -19,9 +18,12 @@ const teamMembers = [
     id: 2,
     name: "Dr. Androniki Menelaou",
     role: "Director, AI & Data Strategy Consultant",
-    description: "From building models to leading teams to executive strategy—10+ years turning AI/Data into revenue. Track record across academia, corporate, and startups: data products from zero to Tier-1 pilots, 3x growth through ML, 60%+ of revenue attributed to AI/Data. Oxford DPhil in Statistics.",
-    image: "https://media.licdn.com/dms/image/v2/C5103AQFmS21Q9G8tKQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517551527327?e=1766016000&v=beta&t=8FPGirohAuiykZkAjnKJ9SReSZZIrwc70blfLU9d4k4",
-    linkedin: "https://www.linkedin.com/in/dr-androniki-menelaou-7994aa60/?originalSubdomain=cy",
+    description:
+      "From building models to leading teams to executive strategy—10+ years turning AI/Data into revenue. Track record across academia, corporate, and startups: data products from zero to Tier-1 pilots, 3x growth through ML, 60%+ of revenue attributed to AI/Data. Oxford DPhil in Statistics.",
+    image:
+      "https://media.licdn.com/dms/image/v2/C5103AQFmS21Q9G8tKQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517551527327?e=1766016000&v=beta&t=8FPGirohAuiykZkAjnKJ9SReSZZIrwc70blfLU9d4k4",
+    linkedin:
+      "https://www.linkedin.com/in/dr-androniki-menelaou-7994aa60/?originalSubdomain=cy",
     twitter: "#",
     email: "#",
   },
@@ -30,7 +32,8 @@ const teamMembers = [
     name: "Stamatis Papangelou",
     role: "TBA",
     description: "TBA",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHt7ppqrlAxeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696584501942?e=1766016000&v=beta&t=kPqBBkirvOgViUyjPK5722eT2YiA4N6AYOB3cN6INa4",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D03AQHt7ppqrlAxeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696584501942?e=1766016000&v=beta&t=kPqBBkirvOgViUyjPK5722eT2YiA4N6AYOB3cN6INa4",
     linkedin: "https://www.linkedin.com/in/stamatis-papangelou/",
     twitter: "#",
     email: "#",
@@ -39,7 +42,8 @@ const teamMembers = [
     id: 4,
     name: "Prajal Sharma",
     role: "Tech Lead & Devrel",
-    description: "Full-stack engineer building the future of decentralized grant management. Passionate about Web3 accessibility.",
+    description:
+      "Full-stack engineer building the future of decentralized grant management. Passionate about Web3 accessibility.",
     image: "https://eigenjobs.s3.us-east-1.amazonaws.com/photo_6230926347748883466_x.jpg",
     linkedin: "https://www.linkedin.com/in/prajal-sharma-72b125206/",
     twitter: "https://x.com/0xPrajal",
@@ -54,7 +58,7 @@ export default function TeamSection() {
     <section className="relative py-32 bg-[#0a0a0a] overflow-hidden">
       {/* Subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/5 to-transparent pointer-events-none" />
-      
+
       {/* Floating blur orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
@@ -69,11 +73,12 @@ export default function TeamSection() {
             Meet the Experts
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            A team of Web3 pioneers, blockchain architects, and grant specialists dedicated to bringing your vision to life
+            A team of Web3 pioneers, blockchain architects, and grant specialists
+            dedicated to bringing your vision to life
           </p>
         </div>
 
-        {/* Team Grid - 4 members in 2x2 on desktop, stack on mobile */}
+        {/* Team Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-20">
           {teamMembers.map((member) => (
             <div
@@ -82,63 +87,60 @@ export default function TeamSection() {
               onMouseEnter={() => setHoveredId(member.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
-              {/* Card Container */}
               <div className="relative h-full bg-gradient-to-b from-[#1a1a1a]/80 to-[#0f0f0f]/80 rounded-3xl overflow-hidden border border-gray-800/50 transition-all duration-500 hover:border-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/10 backdrop-blur-sm">
-                
                 {/* Image Section */}
                 <div className="relative h-96 overflow-hidden">
-                  {/* Image */}
-                  <div className="absolute inset-0">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  />
 
-                  {/* Gradient Overlay - always visible, changes on hover */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent z-10 transition-opacity duration-500" />
 
-                  {/* Hover overlay with cyan tint */}
-                  <div 
+                  <div
                     className={`absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-blue-500/10 to-transparent z-20 transition-opacity duration-500 ${
                       hoveredId === member.id ? "opacity-100" : "opacity-0"
                     }`}
                   />
 
-                  {/* Social Icons - slide in from top on hover */}
-                  <div 
+                  {/* Social Icons */}
+                  <div
                     className={`absolute top-6 right-6 flex gap-2 z-30 transition-all duration-500 ${
-                      hoveredId === member.id ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+                      hoveredId === member.id
+                        ? "opacity-100 translate-y-0"
+                        : "opacity-0 -translate-y-4"
                     }`}
                   >
-                    {member.linkedin && (
+                    {member.linkedin && member.linkedin !== "#" && (
                       <a
                         href={member.linkedin}
                         className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
                         aria-label="LinkedIn"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <Linkedin className="w-4 h-4 text-white" />
                       </a>
                     )}
-                    {member.twitter && (
+                    {member.twitter && member.twitter !== "#" && (
                       <a
                         href={member.twitter}
                         className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
                         aria-label="X (Twitter)"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           className="w-4 h-4 text-white"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          xmlns="http://www.w3.org/2000/svg"
                         >
                           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                         </svg>
                       </a>
                     )}
-                    {member.email && (
+                    {member.email && member.email !== "#" && (
                       <a
                         href={`mailto:${member.email}`}
                         className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
@@ -149,7 +151,7 @@ export default function TeamSection() {
                     )}
                   </div>
 
-                  {/* Name & Role - positioned at bottom of image */}
+                  {/* Name & Role */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 z-30">
                     <h3 className="text-2xl font-bold text-white font-heading mb-1 transition-colors duration-300 group-hover:text-cyan-400">
                       {member.name}
@@ -160,10 +162,12 @@ export default function TeamSection() {
                   </div>
                 </div>
 
-                {/* Description Section - expands on hover */}
-                <div 
+                {/* Description */}
+                <div
                   className={`p-6 transition-all duration-500 ${
-                    hoveredId === member.id ? "max-h-48 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+                    hoveredId === member.id
+                      ? "max-h-48 opacity-100"
+                      : "max-h-0 opacity-0 overflow-hidden"
                   }`}
                 >
                   <p className="text-gray-400 text-sm leading-relaxed">
@@ -171,7 +175,6 @@ export default function TeamSection() {
                   </p>
                 </div>
 
-                {/* Bottom accent line */}
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
