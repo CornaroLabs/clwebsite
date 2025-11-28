@@ -29,7 +29,8 @@ const teamMembers = [
     id: 3,
     name: "Stamatis Papangelou",
     role: "TBA",
-    description: "TBA",
+    description:
+      "TBA",
     image: "https://eigenjobs.s3.us-east-1.amazonaws.com/manos.jpeg",
     linkedin: "https://www.linkedin.com/in/stamatis-papangelou/",
     twitter: "#",
@@ -38,7 +39,7 @@ const teamMembers = [
   {
     id: 4,
     name: "Prajal Sharma",
-    role: "Tech Lead ",
+    role: "Tech Lead & Devrel",
     description:
       "Full-stack engineer building the future of decentralized grant management. Passionate about Web3 accessibility.",
     image:
@@ -62,14 +63,14 @@ export default function TeamSection() {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Header */}
+        {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white font-heading">
             Our Team
           </h2>
         </div>
 
-        {/* Team Grid */}
+        {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-20">
           {teamMembers.map((member) => (
             <div
@@ -78,16 +79,18 @@ export default function TeamSection() {
               onMouseEnter={() => setHoveredId(member.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
+              {/* CARD */}
               <div className="relative h-full bg-gradient-to-b from-[#1a1a1a]/80 to-[#0f0f0f]/80 rounded-3xl overflow-hidden border border-gray-800/50 transition-all duration-500 hover:border-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/10 backdrop-blur-sm flex flex-col">
-                {/* Image Section */}
-                <div className="relative h-96 overflow-hidden flex-shrink-0">
+                
+                {/* IMAGE */}
+                <div className="relative h-96 overflow-hidden">
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent z-10 transition-opacity duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-transparent z-10"></div>
 
                   <div
                     className={`absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-blue-500/10 to-transparent z-20 transition-opacity duration-500 ${
@@ -95,9 +98,9 @@ export default function TeamSection() {
                     }`}
                   />
 
-                  {/* Social Icons */}
+                  {/* SOCIAL ICONS (desktop hover only) */}
                   <div
-                    className={`absolute top-6 right-6 flex gap-2 z-30 transition-all duration-500 ${
+                    className={`absolute top-6 right-6 hidden md:flex gap-2 z-30 transition-all duration-500 ${
                       hoveredId === member.id
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 -translate-y-4"
@@ -106,8 +109,7 @@ export default function TeamSection() {
                     {member.linkedin !== "#" && (
                       <a
                         href={member.linkedin}
-                        className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
-                        aria-label="LinkedIn"
+                        className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -118,8 +120,7 @@ export default function TeamSection() {
                     {member.twitter !== "#" && (
                       <a
                         href={member.twitter}
-                        className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
-                        aria-label="Twitter"
+                        className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -128,7 +129,7 @@ export default function TeamSection() {
                           viewBox="0 0 24 24"
                           fill="currentColor"
                         >
-                          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z" />
                         </svg>
                       </a>
                     )}
@@ -136,17 +137,16 @@ export default function TeamSection() {
                     {member.email !== "#" && (
                       <a
                         href={`mailto:${member.email}`}
-                        className="w-10 h-10 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
-                        aria-label="Email"
+                        className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-cyan-500 hover:scale-110 transition-all duration-300 border border-white/20"
                       >
-                          <Mail className="w-4 h-4 text-white" />
+                        <Mail className="w-4 h-4 text-white" />
                       </a>
                     )}
                   </div>
 
-                  {/* Name + Role */}
+                  {/* NAME + ROLE */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 z-30">
-                    <h3 className="text-2xl font-bold text-white font-heading mb-1 transition-colors duration-300 group-hover:text-cyan-400">
+                    <h3 className="text-2xl font-bold text-white mb-1 transition-colors duration-300 group-hover:text-cyan-400">
                       {member.name}
                     </h3>
                     <p className="text-cyan-400 text-sm font-medium uppercase tracking-wider">
@@ -155,20 +155,17 @@ export default function TeamSection() {
                   </div>
                 </div>
 
-                {/* Description */}
+                {/* DESCRIPTION — FULL LENGTH ON MOBILE + DESKTOP */}
                 <div
-                  className={`p-6 transition-all duration-500 ${
-                    hoveredId === member.id
-                      ? "max-h-48 opacity-100"
-                      : "max-h-0 opacity-0 overflow-hidden"
-                  }`}
+                  className={`
+                    p-6 text-gray-400 text-sm leading-relaxed transition-all duration-500
+                    ${hoveredId === member.id ? "opacity-100" : "md:opacity-0 md:max-h-0 md:overflow-hidden"}
+                  `}
                 >
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    {member.description}
-                  </p>
+                  {member.description}
                 </div>
 
-                {/* Accent line */}
+                {/* ACCENT LINE */}
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
@@ -177,27 +174,25 @@ export default function TeamSection() {
 
         {/* CTA */}
         <div className="text-center">
-          <div className="inline-flex flex-col items-center gap-6">
-            <a
-              href="mailto:info@cornarolabs.xyz"
-              className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full hover:shadow-xl hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105 border border-cyan-400/20"
+          <a
+            href="mailto:info@cornarolabs.xyz"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-full hover:shadow-xl hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105 border border-cyan-400/20"
+          >
+            <span>Work With Us</span>
+            <svg
+              className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
             >
-              <span>Work With Us</span>
-              <svg
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </a>
-          </div>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
