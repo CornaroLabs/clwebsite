@@ -1,57 +1,38 @@
-const Footer = () => {
+onst Footer = () => {
   return (
     <footer className="flex flex-col lg:flex-row gap-10 p-10 bg-[#080f1e] items-center lg:items-start">
       <div className="w-72 lg:w-60">
         <a href="https://www.cornarolabs.xyz">
-          {/* If logo.png is in /public, use /logo.png */}
           <img src="/logo.png" alt="Cornaro Labs Logo" />
         </a>
       </div>
 
-      {/* ✅ This wrapper div now has a matching closing tag */}
       <div className="flex flex-col lg:flex-row gap-10 grow lg:justify-evenly">
         <ul className="text-primary-gray text-sm flex flex-col gap-3 text-center lg:text-left">
-          <li>
-            <a href="https://tally.so/r/3ydLEW">Intake Form</a>
-          </li>
-          <li>
-            <a href="https://x.com/CornaroLabs">X</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/cornaro-labs/">LinkedIn</a>
-          </li>
+          <li><a href="https://tally.so/r/3ydLEW">Intake Form</a></li>
+          <li><a href="https://x.com/CornaroLabs">X</a></li>
+          <li><a href="https://www.linkedin.com/company/cornaro-labs/">LinkedIn</a></li>
         </ul>
 
         <ul className="text-primary-gray text-sm flex flex-col gap-3 text-center lg:text-left">
-          <li>
-            <a href="https://tidycal.com/cornarolabs">Book a Consultation</a>
-          </li>
-          <li>
-            <a href="https://tally.so/r/3ydLEW">Add your Grant Program</a>
-          </li>
-          <li>
-            <a href="https://cornarolabs.substack.com/">
-              Subscribe to our Substack
-            </a>
-          </li>
+          <li><a href="https://tidycal.com/cornarolabs">Book a Consultation</a></li>
+          <li><a href="https://tally.so/r/3ydLEW">Add your Grant Program</a></li>
+          <li><a href="https://cornarolabs.substack.com/">Subscribe to our Substack</a></li>
         </ul>
 
-        <div className="text-sm text-center space-y-3">
+        <div className="text-sm text-center space-y-3 max-w-xs lg:max-w-sm">
           <div className="space-y-1 text-xs">
             <p className="font-semibold">Locations</p>
             <p>Nicosia, Cyprus</p>
             <p>
-              UK: 4th Floor, Silverstream House, 45 Fitzroy Street, Fitzrovia,
-              London, W1T 6EB, GB
+              UK: 4th Floor, Silverstream House, 45 Fitzroy Street, Fitzrovia, London,
+              W1T 6EB, GB
             </p>
           </div>
 
           <p>
             For inquiries, please reach out to us at{" "}
-            <a
-              href="mailto:info@cornarolabs.xyz"
-              className="text-[#00b9fa]"
-            >
+            <a href="mailto:info@cornarolabs.xyz" className="text-[#00b9fa]">
               info@cornarolabs.xyz
             </a>
           </p>
