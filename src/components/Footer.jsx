@@ -29,9 +29,11 @@ const Footer = () => {
             <a href="https://cornarolabs.substack.com/">Subscribe to our substack</a>
           </li>
         </ul>
-        <div className="text-sm text-center space-y-3">
-          <p>Address: M.I. CORNARO LABS LTD, 4th Floor, Silverstream House/, 45 Fitzroy Street, Fitzrovia, London, W1T 6EB GB </p>
-          <p>
+        <div className="space-y-1 text-[10px] leading-tight">
+  <p className="font-semibold">Locations</p>
+  <p>Nicosia, Cyprus</p>
+  <p>UK: 4th Floor, Silverstream House, 45 Fitzroy Street, Fitzrovia, London, W1T 6EB, GB</p>
+</div>
       
             For inquiries, please reach out to us at{" "}
             <a href="mailto:info@cornarolabs.xyz" className="text-[#00b9fa] ">
