@@ -28,9 +28,9 @@ const teamMembers = [
   {
     id: 3,
     name: "Stamatis Papangelou",
-    role: "TBA",
+    role: "DLTs, AI and Data Analytics Advisor",
     description:
-      "TBA",
+      "DLTs, AI and Data Analytics Advisor",
     image: "https://eigenjobs.s3.us-east-1.amazonaws.com/manos.jpeg",
     linkedin: "https://www.linkedin.com/in/stamatis-papangelou/",
     twitter: "#",
