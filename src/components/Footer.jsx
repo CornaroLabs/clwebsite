@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
           </p>
 
-          <p>© Cornaro Labs 2025. All rights reserved.</p>
+          <p>© Cornaro Labs 2026. All rights reserved.</p>
         </div>
       </div>
     </footer>
