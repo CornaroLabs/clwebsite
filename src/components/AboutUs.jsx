@@ -75,7 +75,7 @@ const AboutUs = () => {
         whileInView="animate"
         viewport={{ once: true, amount: 0.8 }}
         className="dashboard-preview-wrapper rounded-md h-min shrink-0 max-w-[30rem]">
-        <img src={Team} alt="" className="rounded-md" />
+        <img src={aboutus} alt="" className="rounded-md" />
       </motion.div>
     </section>
   );
