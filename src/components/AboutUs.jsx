@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import Team from "../assets/team.jpeg";
+import team from "../assets/team.jpeg";
 
 const heading = {
   hidden: { opacity: 0, y: -20 },
