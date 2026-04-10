@@ -19,10 +19,10 @@ const records = [
       "Directly managed and distributed grants to Web3 and other tech startups/projects.",
   },
   {
-    amount: "8+",
-    title: "Years of Web3 Experience",
+    amount: "10+",
+    title: "Years of Experience",
     description:
-      "Expertise in blockchain, funding, project management, research and scaling Web3 projects.",
+      "Expertise in blockchain, AI, funding, project management, research and scaling tech projects.",
   },
 ];
 
