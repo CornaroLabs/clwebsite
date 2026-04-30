@@ -5,7 +5,7 @@ const teamMembers = [
   {
     id: 1,
     name: "Marianna Charalambous",
-    role: "Director, Management Consultant",
+    role: "Director, Lead Consultant",
     description:
       "10+ years across Web3, research, and tech—securing €4M+ in grants and managing large-scale projects. Experience from EU-funded projects to Web3 grant programs, with work involving the European Commission, the ECB, and multiple blockchain startups. Project management, grant strategy, and policy & regulation.",
     image: "https://eigenjobs.s3.us-east-1.amazonaws.com/marianna.jpeg",
