@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const records = [
   {
     amount: "$5M+",
-    title: "Raised in Grant Fundraising",
+    title: "In Grant Fundraising",
     description:
       "Securing funding to drive innovation and support startups and projects from various ecosystems.",
   },
